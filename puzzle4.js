@@ -3,14 +3,15 @@ down
 down
 down
 right
-var firstColorSeen=getColor
+var firstColorSeen = getColor
 down
 setColor(firstColorSeen)
 right
 right
 up
 right
-var secondColorSeen=getColor
+var secondColorSeen = getColor
 down
-setColor (secondColorSeen)
-right 
+setColor(secondColorSeen)
+right
+right
