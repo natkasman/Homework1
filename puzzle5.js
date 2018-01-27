@@ -1,19 +1,20 @@
 right
 right
-var firstColorSeen=getColor
 
-if (getColor ==“blue”) {
-down
-right
-right
+function move(){
+  if (getColor() == "blue") {
+    down
+    right
+    right
+  } else {
+    up
+    right
+    right
+  }
 }
-
-var secondColorSeen=getColor
-
-if (getColor==“pink”) {
-up
-right
-right
-}
+  
+move
+move
+move
 
 right
