@@ -1,24 +1,19 @@
-right 
+right();
 
-var firstColorSeen=getColor
-if (firstColorSeen=pink) {
-up
-up 
-up
-}
+if (getColor() == "red") {
+  up();
+  up();
+  up();
+} else {
+  down();
+  down();
+  down();
+  }
 
-if (firstColorSeen=pink) {
-left
-up
-}
-
-if (firstColorSeen=blue) {
-down
-down 
-down
-}
-
-if (firstColorSeen=blue) {
-right
-up
-}
+if (getColor() == "blue") {
+  right();
+  up();
+} else {
+  left();
+  down();
+  }
