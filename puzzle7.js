@@ -1,34 +1,20 @@
-var firstColorSeen=getColor
-
-while (getColor !=“white”) {
-down
+function move (){
+  while (getColor() != "red"){
+      down();
+  }
+  right();
+  right();
+  while (getColor() != "red"){
+    up();
+  }
+  right();
+  right();
 }
 
-var secondColorSeen=getColor
+move();
+move();
 
-while (getColor !=“pink”) {
-right
-right
-}
-
-while (getColor !=“white”) {
-up
-}
-
-while (getColor !=“pink”) {
-right
-right
-}
-
-while (getColor !=“white”) {
-down
-}
-
-while (getColor !=“pink”) {
-right
-right
-}
-
-while (getColor !=“white”) {
-up
-}
+while (getColor() != "red"){
+      down();
+  }
+right();
