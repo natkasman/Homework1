@@ -10,7 +10,7 @@ while (steps < 5) {
   steps = steps + 1
 }
 
-up
-up
-right
-right
+up();
+up();
+right();
+right();
