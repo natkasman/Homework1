@@ -1,20 +1,20 @@
-right
-right
+right();
+right();
 
 function move(){
   if (getColor() == "blue") {
-    down
-    right
-    right
+    down();
+    right();
+    right();
   } else {
-    up
-    right
-    right
+    up();
+    right();
+    right();
   }
 }
   
-move
-move
-move
+move();
+move();
+move();
 
-right
+right();
