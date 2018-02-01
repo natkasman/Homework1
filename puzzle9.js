@@ -1,37 +1,27 @@
-function GoDown() {
-  var steps = 0
-  while (steps < 9) {
+function draw(x){
+  var count = 0;
+  while (count < x){
+    setColor("blue");
     down();
-    steps = steps + 1
-	}
-}
-
-function GoRight() {
-  var steps = 0
-  while (steps < 9) {
+    count = count + 1;
+  }
+  count = 0;
+  while (count < x){
+    setColor("blue");
     right();
-    steps = steps + 1
-	}
-}
-
-
-function GoUp() {
-  var steps = 0
-  while (steps < 9) {
+    count = count + 1;
+  }
+  count = 0;
+  while (count < x){
+    setColor("blue");
     up();
-    steps = steps + 1
-	}
-}
-
-function GoLeft() {
-  var steps = 0
-  while (steps < 9) {
+    count = count + 1;
+  }  
+  count = 0;
+  while (count < x){
+    setColor("blue");
     left();
-    steps = steps + 1
-	}
+    count = count + 1;
+  } 
 }
-
-GoDown;
-GoRight;
-GoUp;
-GoLeft;
+draw(2);
